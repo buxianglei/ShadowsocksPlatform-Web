@@ -26,7 +26,18 @@ require_once '_main.php'; ?>
                         <p>邮箱：<?php echo $user_email; ?></p>
 
                         <p> 到期时间：<span
-                                class="label label-info"> <?php echo date('Y-m-d H:i:s', $oo->get_last_get_gift_time()); ?> </span>
+                                class="label label-info">
+<?php
+                                if ($oo->get_last_get_gift_time() > time()) {
+                                    echo date('Y-m-d H:i:s', $oo->get_last_get_gift_time());
+                                } else {
+                                    echo '已到期，请及时续费';
+                                }
+
+                                ?>
+
+
+                            </span>
                         </p>
 
                         <p> 套餐：<span class="label label-info"> <?php echo $oo->get_plan();?> </span></p>

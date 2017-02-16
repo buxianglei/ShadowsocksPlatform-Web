@@ -18,11 +18,25 @@ if (isset($_POST['cardnum'])) {
             "uid" => $uid
         ])[0];
         if ($uinfo['plan'] == 'pro') {
-            $db->update('user', [
-                "last_get_gift_time[+]" => $num
-            ], [
-                "uid" => $uid
-            ]);
+            if ($uinfo['last_get_gift_time'] >= time()) {
+                $db->update('user', [
+                    "last_get_gift_time[+]" => $num
+                ], [
+                    "uid" => $uid
+                ]);
+            } else {
+                $num = $num + time();
+                $db->update('user', [
+                    "u" => 0,
+                    "d" => 0,
+                    "plan" => 'pro',
+                    "last_get_gift_time" => $num,
+                    "transfer_enable" => 100 * 1024 * 1024 * 1024
+                ], [
+                    "uid" => $uid
+                ]);
+            }
+
         } else {
             $num = $num + time();
             $db->update('user', [
