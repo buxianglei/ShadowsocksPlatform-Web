@@ -32,7 +32,7 @@ $ssmin = new \Ss\Etc\Ana();
 
                             <p>流量统计仅供参考，在线人数有一小会儿的延迟。</p>
                         </div>
-                        <p><?php echo $site_name;  ?>已经产生流量<code><?php echo $ssmin->getTrafficGB(); ?></code>GB。</p>
+                        <p><?php echo $site_name;  ?>本月已经产生流量<code><?php echo $ssmin->getTrafficGB(); ?></code>GB。</p>
 
                         <p>24小时签到用户：<code><?php echo $ssmin->CheckInUser(3600 * 24); ?></code></p>
 
