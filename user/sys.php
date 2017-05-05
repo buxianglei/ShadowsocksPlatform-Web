@@ -34,6 +34,7 @@ $ssmin = new \Ss\Etc\Ana();
                         </div>
                         <p><?php echo $site_name;  ?>本月已经产生流量<code><?php echo $ssmin->getTrafficGB(); ?></code>GB。</p>
                         <p>付费总用户数：<code><?php echo $ssmin->ProUserCount(); ?></code></p>
+                        <p>注册总用户数：<code><?php echo $ssmin->allUserCount(); ?></code></p>
 
 
                         <p>过去24小时在线人数：<code><?php echo $ssmin->onlineUserCount(3600 * 24);?></code>。</p>
