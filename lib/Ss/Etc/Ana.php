@@ -41,6 +41,15 @@ class Ana extends Db
         return $c;
     }
 
+    //有效pro用户
+    function ProUserCount()
+    {
+        $c = $this->db->count("user", "uid", [
+            "plan[=]" => "pro"
+        ]);
+        return $c;
+    }
+
     //签到用户
     function checkinUser($time)
     {

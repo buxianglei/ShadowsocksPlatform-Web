@@ -23,7 +23,6 @@ require_once '_main.php'; ?>
 
                     <p>购买之后将清空您目前拥有的所有免费流量,如您已经是高级账户,则流量保持不变。</p>
 
-                    <p>当购买的流量用尽之后,系统将自动补偿您50G免费节点流量。</p>
 
                     <p>购买之后连接免费节点与收费节点均可使用,请知悉。</p>
 
@@ -33,13 +32,11 @@ require_once '_main.php'; ?>
                 <div class="callout callout-warning">
                     <h5>充值卡购买连接</h5>
 
-                    <p><a href="http://svip.tzyee.net/list/8hpns  "><font color="red">活动卡密购买（特价月卡）</font></a></p>
 
-                    <p><a href="http://svip.tzyee.net/list/8dDfs "><font color="red">月卡点击购买</font></a></p>
+                    <p><a href="http://t.cn/R6aWjxY "><font color="red">月卡点击购买</font></a></p>
 
-                    <p><a href="http://svip.tzyee.net/list/8dDps "><font color="red">季卡点击购买</font></a></p>
+                    <p><a href="http://t.cn/R6ajwi3 "><font color="red">季卡点击购买</font></a></p>
 
-                    <p><a href="http://svip.tzyee.net/list/8dEGs  "><font color="red">年卡点击购买</font></a></p>
                 </div>
 
                 <div class="box box-primary">

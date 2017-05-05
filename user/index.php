@@ -51,9 +51,9 @@ $unix_time = $oo->get_last_unix_time();
                                     </font></span></p>
 
 
-                            <p><span style="font-weight:bold;"><font
-                                        color="black">网站可能会被墙，长期使用请一定要使用正确邮箱注册，邮件通知地址</font></span><span
-                                    style="font-weight:bold;"><font color="red">免费用户原则上可使用1个月</font></span></p>
+                            <p><span style="font-weight:bold;"><font color="black">网站可能会被墙，长期使用请加QQ 群 ：290698332</font></span>
+                            </p>
+                            <p><span style="font-weight:bold;"><font color="black">网站综合情况在系统信息中查看</font></span></p>
 
                         <?php } ?>
 
